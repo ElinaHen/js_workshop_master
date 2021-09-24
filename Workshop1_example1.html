@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Workshop 1</title>
+    <!-- script tag is where Javascript goes to -->
+    <script>
+        alert("Hello World!");
+        alert("Hello world again!");
+        alert("Vielä yksi hello world!");
+        alert("nonononono");
+
+        var fname = "your firstname";
+        var lname = "Your lastname";
+        alert(fname);
+
+        document.write(lname);
+        alert(fname + " " + lname);
+        console.log(lname + " " + fname);
+
+
+
+        for (var i = 0; i < 400; i++) {
+            console.log("This round is " + i);
+        }
+    </script>
+
+</head>
+
+<body>
+    <h1>Welcome to example page</h1>
+    <p> Lorem ipsum dolorem... </p>
+    <p> What is the name(s) of your browser?</p>
+
+    <script>
+        document.write("You are using: " + navigator.appName);
+        document.wtite("<br>");
+        document.write("Code name for the browser is " + navigator.appCodename);
+    </script>
+    <br>
+
+    <script>
+        var x = 50;
+        var order = "beer";
+        if (x > 50) {
+            document.write("He is over 50!");
+        } else if (x <= 50 && x > 30) {
+            document.write("Miidle aged man who ordered some " + order);
+        } else
+            document.write("It seem you're bit underaged.");
+    </script>
+
+</body>
+
+</html>
